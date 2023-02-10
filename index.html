@@ -18,58 +18,67 @@
 <body>
   <!-- navbar -->
   <section class="navigation">
-    <nav class="navbar navbar-expand-lg navbar-light d-flex p-0">
-      <img class="logo" src="./assets/symbol.jpg" />
-      <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
-      </button>
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light d-flex p-0">
+    <img class="logo" src="./assets/symbol.jpg" />
+    <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon "></span>
+    </button>
 
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto navlist bg-info">
-          <li class="nav-item active">
-            <a class="nav-link text-light text-center" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light text-center" href="#">Categories</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-light text-center" href="#" id="navbarDropdown" role="button"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Photo & Video
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item text-center" href="#">Sea</a>
-              <a class="dropdown-item text-center href="#">Nature</a>
-              <a class="dropdown-item text-center" href="#">Cricketer</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light text-center" href="#">Users</a>
-          </li>
-        </ul>
-      </div>
-      <button class="btn btn-outline-info m-3 " type="button">
-        <i class="fa-solid fa-user pe-2 "></i>Sign in/up
-      </button>
-    </nav>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto navlist bg-info px-5">
+        <li class="nav-item active">
+          <a class="nav-link text-light text-center" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light text-center" href="#">Categories</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-light text-center" href="#" id="navbarDropdown" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Photo & Video
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item text-center" href="#">Sea</a>
+            <a class="dropdown-item text-center" href="#">Nature</a>
+            <a class="dropdown-item text-center" href="#">Cricketer</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light text-center" href="#">Users</a>
+        </li>
+      </ul>
+    </div>
+    <button class="btn btn-outline-info m-3  " type="button">
+      <i class="fa-solid fa-user pe-2 "></i>Sign in/up
+    </button>
+  </nav>
+</section>
+
+</div>
+
+
+
+
+   
   </section>
 
   <!-- background Area -->
   <section class="background_area">
-    <div class="container-fluid  ">
+    <div class="container-fluid ">
       <div class="row">
         <div class="bg_image ">
           <div class="text w-75 m-auto mt-5 d-flex flex-column text-light text-center ">
             <div class="main_div ">
-              <div class="title py-5">
-                <h1 class="py-3 border-bottom">
+              <div class="title  mt-3 pt-5">
+                <h1>
                   Enter a World of <span style="color: #42caf0">Photos</span> &
                   Amazing <br /><span style="color: #42caf0">Awards</span>
                 </h1>
               </div>
 
-              <div>
+              <div class="border-top pt-4"> 
                 <p>
                   SnapX Photography is a professional website template with 5
                   different HTML pages for maximum customizations. It is free
@@ -109,20 +118,25 @@
   </section>
 
   <!-- categories -->
-  <section class="categories">
+  <section class="categories ">
 
-    <div class="row d-flex">
 
-      <div class="col d-block ms-5">
-        <span class="text-info">Our Categories</span>
-        <span>
-          <h3>Check Out <span class="text-info">Popular</span> Contest <span class="text-info">Categories</span></h3>
-        </span>
+    <div class="container-fluid">
+      <div class="row  d-flex  justify-content-between  ">
+
+        <div class="col-xl-10 col-lg-8 col-md-6 ">
+          <span class="text-info">Our Categories</span>
+          <span>
+            <h3>Check Out <span class="text-info">Popular</span> Contest <span class="text-info">Categories</span></h3>
+          </span>
+          
+        </div>
+        <div class="col-xl-2 col-lg-4 col-md-6 text-sm-center text-xs-center" >
+          <button type="button" class="btn btn-info   mt-4">Discover All Categories</button>
+        </div>
+        
+  
       </div>
-      <div class="col text-end">
-        <button type="button" class="btn btn-info  me-5 mt-4">Discover All Categories</button>
-      </div>
-
     </div>
     <div class="container">
       <div class="row mt-5  m-auto">
@@ -295,7 +309,7 @@
 
       </div>
       <div class="row m-auto my-5">
-        <div class="col-lg-4 m-3">
+        <div class="col-lg-4  mb-2">
           <div class="card">
             <img src="./assets/image-removebg-preview.png " class="card-img-top  w- " alt="...">
             <div class="title text-center ">
@@ -318,14 +332,14 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4  m-3">
+        <div class="col-lg-4 mb-2">
           <div class="card">
             <img src="./assets/image-removebg-preview.png " class="card-img-top   " alt="...">
             <div class="title text-center ">
               <h3 class="text-dark w-75 m-auto border-bottom pb-3"> Basic plan</h3>
             </div>
 
-            <div class="card-body text-center mt-2 lh-5">
+            <div class="card-body text-center  lh-5">
               <p class="text-info">Lorem ipsum dolor sit amet.</p>
               <p class="text-info">Lorem ipsum dolor sit.</p>
               <p class="text-info">Lorem ipsum dolor sit amet.</p>
@@ -341,7 +355,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 m-3">
+        <div class="col-lg-4 mb-2 ">
           <div class="card">
             <img src="./assets/image-removebg-preview.png " class="card-img-top   " alt="...">
             <div class="title text-center ">
@@ -373,7 +387,7 @@
 
   <!-- footer -->
   <section class="footer">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row text-center bg-info text-light p-3">
         <p> Copyright @ 2048 <b>SnapX</b> Photo Contest Co., Ltd .All rights deserved. Design: <b>TemplateMo</b></p>
       </div>
