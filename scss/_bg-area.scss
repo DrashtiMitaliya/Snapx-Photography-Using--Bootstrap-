@@ -1,0 +1,29 @@
+
+.bg_image{
+    background-image: url('/assets/bg-img.jpg');
+    background-size: cover;
+    z-index: -1;
+    height: 78vh;
+    opacity: 0.7;
+
+    
+    
+}
+.btn:hover{
+    cursor: pointer !important;
+}
+
+@media (max-width:391px){
+    .main_div{
+        margin-top: -78px;   
+    }
+   .bg_area{
+    padding: 0 !important;
+   }
+}
+@media (max-width:294px){
+    .main_div{
+        margin-top: -53%;
+        font-size: 15px;
+    }
+}

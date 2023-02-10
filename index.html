@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <title>Snapx</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <section class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex p-0">
+      <img class="logo" src="./assets/symbol.jpg" />
+      <button class="navbar-toggler text-center" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto navlist bg-info">
+          <li class="nav-item active">
+            <a class="nav-link text-light text-center" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light text-center" href="#">Categories</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light text-center" href="#" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Photo & Video
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-center" href="#">Sea</a>
+              <a class="dropdown-item text-center href="#">Nature</a>
+              <a class="dropdown-item text-center" href="#">Cricketer</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light text-center" href="#">Users</a>
+          </li>
+        </ul>
+      </div>
+      <button class="btn btn-outline-info m-3 " type="button">
+        <i class="fa-solid fa-user pe-2 "></i>Sign in/up
+      </button>
+    </nav>
+  </section>
+
+  <!-- background Area -->
+  <section class="background_area">
+    <div class="container-fluid  ">
+      <div class="row">
+        <div class="bg_image ">
+          <div class="text w-75 m-auto mt-5 d-flex flex-column text-light text-center ">
+            <div class="main_div ">
+              <div class="title py-5">
+                <h1 class="py-3 border-bottom">
+                  Enter a World of <span style="color: #42caf0">Photos</span> &
+                  Amazing <br /><span style="color: #42caf0">Awards</span>
+                </h1>
+              </div>
+
+              <div>
+                <p>
+                  SnapX Photography is a professional website template with 5
+                  different HTML pages for maximum customizations. It is free
+                  for commercial usage. This Bootstrap v5.1.3 CSS layout is
+                  provided by TemplateMo Free CSS Templates.
+                </p>
+              </div>
+
+              <div class="d-flex justify-content-center align-items-center">
+                <div>
+
+                  <button type="button" class="btn btn-outline-light mt-5  m-2">
+                    Explore SnapX Contest
+                  </button>
+                </div>
+
+                <p class="bg_area mt-5 ">
+                  <i class="fa-solid fa-play m-2"></i> Watch Our Video Now
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- slider -->
+  <section class="slider section">
+    <div class="slider ">
+      <i class="fa-solid fa-circle-arrow-left fa-2x container_i text-info"></i>
+      <img class="slider_img1 d-none d-sm-inline" src="./assets/card-i2.jpg">
+      <img class="slider_img2 d-none d-md-inline" src="./assets/card-i2.jpg">
+      <img class="slider_img3 d-inline  " src="assets/card-i2.jpg">
+      <i class="fa-solid fa-circle-arrow-right fa-2x container_i text-info"></i>
+    </div>
+  </section>
+
+  <!-- categories -->
+  <section class="categories">
+
+    <div class="row d-flex">
+
+      <div class="col d-block ms-5">
+        <span class="text-info">Our Categories</span>
+        <span>
+          <h3>Check Out <span class="text-info">Popular</span> Contest <span class="text-info">Categories</span></h3>
+        </span>
+      </div>
+      <div class="col text-end">
+        <button type="button" class="btn btn-info  me-5 mt-4">Discover All Categories</button>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row mt-5  m-auto">
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="card img-thumbnail w-100 m-1">
+            <div class=" d-flex">
+              <div class="m-4">
+                <i class="fa-solid fa-gear fa-2x "></i>
+              </div>
+              <div class=" d-flex flex-column float-end m-auto text-center">
+                <span><b>Nature Pic Contest</b></span>
+                <span>126 <span class="p-2">Available Contests</span></span>
+
+              </div>
+            </div>
+            <img src="./assets/cards_i4.jpg" class="card-img-top " alt="...">
+            <div class="card-body m-auto">
+              <button type="button" class="btn btn-outline-info  border-2">
+                Browse Random Pic Contests
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="card img-thumbnail w-100 m-1">
+            <div class=" d-flex">
+              <div class="m-4">
+                <i class="fa-solid fa-gear fa-2x "></i>
+              </div>
+              <div class=" d-flex flex-column float-end m-auto  text-center">
+                <span><b>Nature Pic Contest</b></span>
+                <span>126 <span class="p-2">Available Contests</span></span>
+
+              </div>
+            </div>
+            <img src="./assets/cards_i4.jpg" class="card-img-top " alt="...">
+            <div class="card-body m-auto">
+              <button type="button" class="btn btn-outline-info border-2  ">
+                Browse Random Pic Contests
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-3 col-sm-6 ">
+          <div class="card img-thumbnail w-100 m-1">
+            <div class=" d-flex">
+              <div class="m-4">
+                <i class="fa-solid fa-gear fa-2x "></i>
+              </div>
+              <div class=" d-flex flex-column float-end m-auto text-center">
+                <span><b>Nature Pic Contest</b></span>
+                <span>126 <span class="p-2">Available Contests</span></span>
+
+              </div>
+            </div>
+            <img src="./assets/cards_i4.jpg" class="card-img-top " alt="...">
+            <div class="card-body m-auto">
+              <button type="button" class="btn btn-outline-info border-2  ">
+                Browse Random Pic Contests
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-3 col-sm-6">
+          <div class="card img-thumbnail w-100 m-1">
+            <div class=" d-flex">
+              <div class="m-4">
+                <i class="fa-solid fa-gear fa-2x "></i>
+              </div>
+              <div class=" d-flex flex-column float-end m-auto text-center">
+                <span><b>Nature Pic Contest</b></span>
+                <span>126 Available Contests</span>
+
+              </div>
+            </div>
+            <img src="./assets/cards_i4.jpg" class="card-img-top " alt="...">
+            <div class="card-body m-auto">
+              <button type="button" class="btn btn-outline-info  border-2  ">
+                Browse Random Pic Contests
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- winners -->
+  <section class="winners">
+    <div class="container-fluid h-auto mt-5 winner">
+      <div class="row text-info text-center ">
+        <div class="row mt-5 ">
+          <span>Closed Photography Contests</span>
+        </div>
+        <div class="row ">
+          <h3>Previous Contests <span class="text-dark">With Handpicked </span> Winners</h3>
+        </div>
+      </div>
+      <div class="row w-75 m-auto mt-5">
+        <div class="col-xl-4 p-3 col-md-6">
+          <div class="card w-100 ">
+            <img src="./assets/cars-i1.jpg" class="card-img-top " alt="...">
+            <div class="card-body d-flex">
+              <div class="col text-center">
+                <span><b>96 participants</b></span> <br>
+                <span>Number Of Artists</span>
+              </div>
+              <div class="col text-center">
+                <span><b>410 Pictures</b></span> <br>
+                <span>Submitted Pics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 p-3 col-md-6">
+          <div class="card w-100">
+            <img src="./assets/cars-i1.jpg" class="card-img-top " alt="...">
+            <div class="card-body d-flex">
+              <div class="col text-center">
+                <span><b>96 participants</b></span> <br>
+                <span>Number Of Artists</span>
+              </div>
+              <div class="col text-center">
+                <span><b>410 Pictures</b></span> <br>
+                <span>Submitted Pics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 p-3 col-md-6">
+          <div class="card w-100">
+            <img src="./assets/cars-i1.jpg" class="card-img-top " alt="...">
+            <div class="card-body d-flex">
+              <div class="col text-center ">
+                <span><b>96 participants</b></span> <br>
+                <span>Number Of Artists</span>
+              </div>
+              <div class="col text-center">
+                <span><b>410 Pictures</b></span> <br>
+                <span>Submitted Pics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" text-center m-auto p-5">
+        <button type="button" class="btn btn-info text-light ">Browse Open Contests</button>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  <!-- awards -->
+  <section class="awards">
+    <div class="container">
+
+      <div class="row text-info text-center ">
+        <div class="row mt-5 ">
+          <span>Our Pricing</span>
+        </div>
+        <div class="row ">
+          <h3><span class="text-dark">Photography</span> Contest plans <span class="text-dark">And Price</span> Awards
+          </h3>
+        </div>
+
+      </div>
+      <div class="row m-auto my-5">
+        <div class="col-lg-4 m-3">
+          <div class="card">
+            <img src="./assets/image-removebg-preview.png " class="card-img-top  w- " alt="...">
+            <div class="title text-center ">
+              <h3 class="text-dark w-75 m-auto border-bottom pb-3"> Basic plan</h3>
+            </div>
+
+            <div class="card-body text-center mt-2 lh-5">
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <p class="text-info">Lorem ipsum dolor sit.</p>
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <del class="text-dark ">Lorem ipsum dolor sit amet.</del><br>
+              <del class="text-dark ">Lorem ipsum dolor sit.</del>
+
+            </div>
+            <div class="title text-center ">
+              <h3 class="text-info"> $25 USD</h3>
+            </div>
+            <div class="card-body text-center m-auto">
+              <button type="button" class="btn btn-outline-info p-2">Choose This Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4  m-3">
+          <div class="card">
+            <img src="./assets/image-removebg-preview.png " class="card-img-top   " alt="...">
+            <div class="title text-center ">
+              <h3 class="text-dark w-75 m-auto border-bottom pb-3"> Basic plan</h3>
+            </div>
+
+            <div class="card-body text-center mt-2 lh-5">
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <p class="text-info">Lorem ipsum dolor sit.</p>
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <del class="text-dark ">Lorem ipsum dolor sit amet.</del><br>
+              <del class="text-dark ">Lorem ipsum dolor sit.</del>
+
+            </div>
+            <div class="title text-center ">
+              <h3 class="text-info"> $25 USD</h3>
+            </div>
+            <div class="card-body text-center m-auto">
+              <button type="button" class="btn btn-outline-info p-2">Choose This Plan</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 m-3">
+          <div class="card">
+            <img src="./assets/image-removebg-preview.png " class="card-img-top   " alt="...">
+            <div class="title text-center ">
+              <h3 class="text-dark w-75 m-auto border-bottom pb-3"> Basic plan</h3>
+            </div>
+
+            <div class="card-body text-center mt-2 lh-5">
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <p class="text-info">Lorem ipsum dolor sit.</p>
+              <p class="text-info">Lorem ipsum dolor sit amet.</p>
+              <del class="text-dark ">Lorem ipsum dolor sit amet.</del><br>
+              <del class="text-dark ">Lorem ipsum dolor sit.</del>
+
+            </div>
+            <div class="title text-center ">
+              <h3 class="text-info"> $25 USD</h3>
+            </div>
+            <div class="card-body text-center m-auto">
+              <button type="button" class="btn btn-outline-info p-2">Choose This Plan</button>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <section class="footer">
+    <div class="container">
+      <div class="row text-center bg-info text-light p-3">
+        <p> Copyright @ 2048 <b>SnapX</b> Photo Contest Co., Ltd .All rights deserved. Design: <b>TemplateMo</b></p>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
